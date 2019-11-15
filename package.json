@@ -1,0 +1,26 @@
+{
+  "name": "lightnshadow-js-web",
+  "version": "0.0.1",
+  "description": "O(n2) Light and Shadow renderer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hrimhari/lightnshadow-js-web.git"
+  },
+  "keywords": [
+    "light",
+    "shadow",
+    "renderer",
+    "javascript",
+    "web"
+  ],
+  "author": "Felipe Carasso",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/hrimhari/lightnshadow-js-web/issues"
+  },
+  "homepage": "https://github.com/hrimhari/lightnshadow-js-web#readme"
+}

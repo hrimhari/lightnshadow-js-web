@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Felipe Carasso: O(n2) Light and Shadow renderer in HTML5</title>
+		<script src=lightnshadow.js></script>
+		<link rel="stylesheet" type="text/css" href="//carassonet.org/style.css" />
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="PageTitle">O(n2) Light and Shadow renderer in HTML5</div>
+		<p>This is a conversion from a Computer Graphics exercise I once did as a Java applet. A while ago it became virtually impossible to run Java applets on a browser, so I decided to create this Javascript + HTML5 version.</p> 
+		<p>Choose a height map from your device, then experiment with the buttons below.</p>
+		<p>Here are some suggestions of online maps:</p>
+		<ul>
+			<li><a target=_blank href=//carassonet.org/lightnshadow-js-web/hills.gif>carassonet.org/lightnshadow/hills.gif</a></li>
+			<li><a target=_blank href=http://playerstage.sourceforge.net/doc/Gazebo-manual-svn-html/terrain.png>playerstage.sourceforge.net/doc/Gazebo-manual-svn-html/terrain.png</a></li>
+			<li><a target=_blank href=http://www.videotutorialsrock.com/opengl_tutorial/terrain/heightmap.png>www.videotutorialsrock.com/opengl_tutorial/terrain/heightmap.png</a></li>
+		</ul>
+		<p><input type="file" id="fileInput" name="files" /></p>
+		<div id=imgDiv class=imgDiv><img src=hills.gif id=sampleImg></img></div>
+		<div id=referenceDiv class=imgDiv><img src=hills.gif id=referenceImg></img></div>
+		<div id=canvasDiv><figure><canvas id=sketcherCanvas width=500 height=300></canvas></figure></div>
+		<div id=controlsDiv>
+			<div id=buttonsDiv>
+				<button onClick="loadMap()" disabled>Load Map</button>
+			</div><br />
+			Status: <div id=statusDiv></div><br />
+			v0.0.1
+		</div>
+		<script>
+		<!--
+			var sample = document.getElementById("sampleImg");
+			var reference = document.getElementById("referenceImg");
+
+			reference.addEventListener("load", sampleLoaded, false);
+
+			var statusDiv = document.getElementById("statusDiv");
+			statusDiv.innerHTML = "Loading...";
+
+			document.getElementById("fileInput").addEventListener("change", fileSelectHandler, false);
+		// -->
+		</script>
+	</body>
+</html>
+
