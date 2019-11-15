@@ -1,0 +1,38 @@
+figure {
+	margin:0px;
+}
+#hand {
+	display: none;
+	position: absolute;
+}
+#statusDiv {
+	display: inline;
+	background-color: black;
+}
+.imgDiv {
+	width: 400px;
+	opacity: 1;
+	position: absolute;
+}
+#referenceDiv {
+	visibility: hidden;
+}
+#sampleImg {
+}
+#canvasDiv {
+	visibility: hidden;
+}
+#controlsDiv {
+	position: fixed;
+	text-align: right;
+	right: 0px;
+	bottom: 0px;
+}
+#buttonsDiv {
+	display: block;
+}
+#buttonsDiv button {
+	margin: 0px 0px 0px auto;
+	display: block;
+	width: 200px;
+}
